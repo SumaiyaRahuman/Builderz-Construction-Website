@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Builderz - Construction Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70" tabindex="0">
+
+  <div class="bg-warning py-2">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap text-dark small">
+      <div>
+        <i class="fa-regular fa-clock me-2"></i>Opening Hour: Mon - Fri, 8:00 - 9:00
+      </div>
+      <div>
+        <i class="fa-solid fa-phone me-2"></i>+012 345 6789
+        &nbsp; | &nbsp;
+        <i class="fa-solid fa-envelope me-2"></i>info@example.com
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top px-3">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold text-warning" href="#">Builderz</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between" id="navMenu">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link active" href="#home">HOME</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+          <li class="nav-item"><a class="nav-link" href="#service">SERVICE</a></li>
+          <li class="nav-item"><a class="nav-link" href="#project">PROJECT</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="home" class="hero-section d-flex align-items-center">
+    <div class="container text-white text-center">
+      <h5 class="fw-light">We Are Professional</h5>
+      <h1 class="display-4 fw-bold">For Your Dream Project</h1>
+      <a href="#contact" class="btn btn-outline-light mt-3 px-4 py-2">GET A QUOTE</a>
+    </div>
+  </div>
+  <section id="about" class="bg-light">
+    <div class="container text-center">
+      <h2 class="mb-4">About Us</h2>
+      <p class="lead">Builderz is a trusted name in the construction industry, known for delivering quality projects with innovation and professionalism. Our mission is to build lasting relationships through reliability and results.</p>
+    </div>
+  </section>
+  <section id="service">
+    <div class="container-fluid">
+      <div class="row text-white text-center">
+        <div class="col-md-4 p-4 bg-dark">
+          <i class="fa-solid fa-user-helmet-safety fa-2x mb-2 text-warning"></i>
+          <h5 class="text-warning">Expert Worker</h5>
+          <ul class="text-start small">
+            <li>✔️ Over 10+ years of industry experience</li>
+            <li>✔️ Certified & trained engineers</li>
+            <li>✔️ Skilled in advanced construction methods</li>
+          </ul>
+        </div>
+        <div class="col-md-4 p-4 bg-warning text-dark">
+          <i class="fa-solid fa-city fa-2x mb-2 text-dark"></i>
+          <h5>Quality Work</h5>
+          <ul class="text-start small">
+            <li>✔️ High-quality materials</li>
+            <li>✔️ On-time project delivery</li>
+            <li>✔️ Strong quality control processes</li>
+          </ul>
+        </div>
+        <div class="col-md-4 p-4 bg-dark">
+          <i class="fa-solid fa-headset fa-2x mb-2 text-warning"></i>
+          <h5 class="text-warning">24/7 Support</h5>
+          <ul class="text-start small">
+            <li>✔️ Dedicated customer assistance</li>
+            <li>✔️ Emergency services</li>
+            <li>✔️ Quick response team available</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="project" class="bg-light text-center">
+    <div class="container">
+      <h2 class="mb-4">Our Projects</h2>
+      <p class="lead">Coming soon: A gallery of our recent construction projects showcasing commercial, residential, and industrial excellence.</p>
+    </div>
+  </section>
+  <section id="contact" class="bg-white">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Us</h2>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <form>
+            <div class="mb-3">
+              <label class="form-label">Name</label>
+              <input type="text" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Email</label>
+              <input type="email" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Message</label>
+              <textarea class="form-control" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-warning">Send Message</button>
+          </form>
+        </div>
+        <div class="col-md-6 d-flex justify-content-center align-items-center">
+  <img src="download (2).jpeg" alt="construction site" class="img-fluid contact-img">
+</div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2025 Builderz Construction. All rights reserved.</p>
+  </footer>
+
+ <div class="map-wrapper text-center mt-4">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.6376231998743!2d80.06503307795685!3d13.122127954221986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5289e213277183%3A0x90f6fb820966ccc7!2sBuilding%20construction%20works%20-%20Chelladurai%20building%20contractor%20Pattabiram%20near%20avadi%20Chennai!5e0!3m2!1sen!2sin!4v1753370019452!5m2!1sen!2sin"
+    width="100%"
+    height="350"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+
+</body>
+</html>
